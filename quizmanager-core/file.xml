@@ -1,0 +1,21 @@
+<quiz name="test">
+    <question tags="hibernate,jpa">
+        <text>What are the possible annotations that can be used in Hibernate</text>
+        <option valid="false">
+            <label>@Autowired</label>
+            <explanation>No that's for Spring</explanation>
+        </option>
+        <option valid="false">
+            <label>@BeforeClass</label>
+            <explanation>No, that's for Junit</explanation>
+        </option>
+        <option valid="true">
+            <label>@Entity</label>
+            <explanation>Yes, that is indicating that this class is a persistent bean </explanation>
+        </option>
+        <option valid="true">
+            <label>@Id</label>
+            <explanation>Yes, that is defining this attribute responsible for the primary key</explanation>
+        </option>
+    </question>
+</quiz>

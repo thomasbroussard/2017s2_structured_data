@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 /** 
  * <h3>Description</h3>  
@@ -35,6 +36,7 @@ public class QuizQuestion {
 	
 	private String subject;
 	
+	@ManyToOne
 	private Quiz quiz;
 
 	

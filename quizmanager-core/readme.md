@@ -1,6 +1,11 @@
+#TODO (15/11/2017)
+- review the xpath mechanisms
+- document yourself about XSLT for xml transformations.
+
 #TODO (08/11/2017)
 - finish the hibernate integration to reproduce what we have done with jdbc in the unit test class
 - read about DOM, XPATH and XSD
+
 
 
 

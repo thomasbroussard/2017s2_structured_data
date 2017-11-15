@@ -16,6 +16,8 @@ package fr.epita.quiz.datamodel;
  * ${tags}
  */
 public class QuizAnswer {
+	
+	
 
 	
 	

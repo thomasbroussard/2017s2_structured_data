@@ -24,15 +24,15 @@
 	<xsl:template match="question">
 		<div>
 			<h2>
-				<xsl:apply-templates select="text" />
+			     <xsl:call-template name="questionTextTemplate" />
 			</h2>
 			<xsl:apply-templates select="option" />
 		</div>
 
 	</xsl:template>
 
-	<xsl:template match="text">
-		<xsl:value-of select="./text()" />
+	<xsl:template name="questionTextTemplate">
+		<xsl:value-of select="text/text()" />
 	</xsl:template>
 
 	<xsl:template match="option">

@@ -1,6 +1,23 @@
 <html>
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+			         .hidden {
+			             display:none;
+			         }
+			         
+			         .explanation {
+			             display:inital;
+			         }
+			         
+			         .valid{
+			             color: green;
+			         }
+			         
+			         .invalid{
+			             color: red;
+			         }
+			    </style>
 <title>Java : Advanced Programming</title>
 </head>
 <body>
@@ -12,15 +29,20 @@
 <div>
 <label>@Autowired</label><input type="checkbox" value="1">
 </div>
+<span class="hidden invalid">No that's for Spring</span>
 <div>
 <label>@BeforeClass</label><input type="checkbox" value="2">
 </div>
+<span class="hidden invalid">No, that's for Junit</span>
 <div>
 <label>@Entity</label><input type="checkbox" value="3">
 </div>
+<span class="hidden invalid">Yes, that is indicating that this class is a persistent bean </span>
 <div>
 <label>@Id</label><input type="checkbox" value="4">
 </div>
+<span class="hidden invalid">Yes, that is defining this attribute responsible for the primary key</span>
 </div>
+<script></script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+#TODO (22/11/2017)
+- review the xslt mechanisms
+- complete the transformation to fix the color display
+- complete the generated so that the explanation is displayed when the user clicks on an option.
+
 #TODO (15/11/2017)
 - review the xpath mechanisms
 - document yourself about XSLT for xml transformations.

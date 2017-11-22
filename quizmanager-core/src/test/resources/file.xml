@@ -1,4 +1,4 @@
-<quiz name="test">
+<quiz name="Java : Advanced Programming">
     <question tags="hibernate,jpa">
         <text>What are the possible annotations that can be used in Hibernate</text>
         <option valid="false">

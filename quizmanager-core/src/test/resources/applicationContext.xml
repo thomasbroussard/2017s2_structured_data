@@ -10,7 +10,7 @@
 
 	<context:annotation-config />
 
-
+    <identity></identity>
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 

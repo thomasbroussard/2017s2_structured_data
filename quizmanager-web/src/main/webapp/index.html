@@ -1,0 +1,31 @@
+<html>
+<body>
+
+	<h1>Json test</h1>
+
+	<a id="ajax-anchor" href="#">click here to submit</a>
+</body>
+<script>
+    var anchor = document.getElementById("ajax-anchor");
+    anchor.onclick = function () {
+        var r = new XMLHttpRequest();
+        r.open("GET", "quiz-validation", true);
+        r.onreadystatechange = function () {
+            if (r.readyState != 4 || r.status != 200) {
+                //error
+            } else {
+                var jsonQuiz = JSON.parse(r.responseText);
+                console.log(jsonQuiz.id);
+                console.log(jsonQuiz.name);
+                var body = document.getElementsByTagName("body")[0];
+                var newElement = document.createElement("h2");
+                newElement.textContent = jsonQuiz.name;
+                body.appendChild(newElement);
+            }
+        };
+        r.send("banana=yellow");
+        return false;
+    };
+  
+</script>
+</html>
